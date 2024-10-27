@@ -24,7 +24,7 @@ for(let i = 0; i < countNum; i++) {
 
 let sum = 0;
 for(let i = 0; i < arrNumb.length; i++){
-    sum = sum + arrNumb[i];
+    sum += arrNumb[i];
 }
 
 // find average
