@@ -20,6 +20,7 @@ for (let i = 0; i < countNum; i++) {
     }
     else {
         console.log("Invalid Value,Enter a number");
+        i--;
     }
     ;
 }
