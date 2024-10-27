@@ -1,6 +1,6 @@
 # Welcome to TypeScript Applications
 
-##  Applications create include
+## Applications create include
 
 * Array of Numbers
 * User Objects with additional fields

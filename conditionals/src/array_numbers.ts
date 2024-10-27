@@ -16,7 +16,8 @@ for(let i = 0; i < countNum; i++) {
     if(!isNaN(num)){
         arrNumb.push(num);
     }else {
-        console.log("Invalid Value,Enter a number")
+        console.log("Invalid Value,Enter a number");
+        i--;
     };
 };
 
