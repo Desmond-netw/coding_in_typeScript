@@ -3,14 +3,15 @@
 // Ask the user to input these details, store them in a User object, and print the information in a formatted sentence.
 
 //==============================================
-// import prompt-sybc for user input
+
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-//declear user type with optional fiedl
+
 type users = {
     name: string;
     email: string;
+    isLearningCoding: boolean;
     isAdmin: boolean;
     phone : string;
 }
@@ -19,18 +20,21 @@ type users = {
 function createUser(): users {
     const name = prompt("Enter your name: ");
     const email = prompt("Enter your email: ");
+    const learn = prompt("Are you learning Coding? ");
     const isAdminInput = prompt("Are you an admin? (yes/no): ").toLowerCase();
     const phone = prompt("Enter you phone number : ");
-    //convert isAdmin input to boolean
-    const isAdmin = isAdminInput === "yes";
+    
 
-    //how to return user objects
+    const isLearningCoding = learn ==="yes";
+    const isAdmin = isAdminInput === "yes";
+    
     const user: users = {
         name,
         email,
         isAdmin,
-        phone
-    }
+        phone,
+        isLearningCoding
+    };
 
     return user;
 }
