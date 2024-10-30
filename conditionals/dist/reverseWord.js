@@ -8,4 +8,6 @@ const input = (0, prompt_sync_1.default)();
 const word = input("Enter a word: ").toLowerCase();
 const stringWord = "The Word of God is here for everyone ";
 const splitWord = word.split('').reverse();
+const joinWord = splitWord.join("");
 console.log(splitWord);
+console.log(joinWord);

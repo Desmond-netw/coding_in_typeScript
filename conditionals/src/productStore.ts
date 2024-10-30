@@ -34,10 +34,3 @@ for(let i = 0; i < quantity; i++){
 
 console.log("Product list");
 
-for (const productlist of products) {
-    console.log(
-        `\nName: ${product.name}
-        \nPrice: ${product.price.toFixed(2)}
-        \nIn stoc: ${product.inStock ? "Yes" : "No"}`
-    )
-}

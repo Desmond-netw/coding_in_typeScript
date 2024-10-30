@@ -1,6 +1,6 @@
 import { networkInterfaces } from "os";
 
-type user = {
+/*ype user = {
     name: string; // user's name as a string
     age: number;
     email: string;
@@ -31,3 +31,5 @@ let user1: user = {
     status: "suspended",
     lastlogin: new Date(), //current date/time
 };
+
+*/
