@@ -1,3 +1,4 @@
+//initiate prompt Sync
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 

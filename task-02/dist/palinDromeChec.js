@@ -7,7 +7,7 @@ const prompt_sync_1 = __importDefault(require("prompt-sync"));
 const prompt = (0, prompt_sync_1.default)();
 const strInput = prompt("Enter a string: ");
 console.log(strInput);
-const splitStrInput = strInput.split("");
+const splitStrInput = strInput.split("").reverse();
 console.log("Splited string ", splitStrInput);
 const reverseStr = splitStrInput.reverse();
 console.log("Reverse: ", reverseStr);
