@@ -8,7 +8,7 @@ const prompt = PromptSync();
 let arrNumb : number[] = [];
 let countNum = 5;
 
-// initialize the input command
+//  input command
 for(let i = 0; i < countNum; i++) {
     const input = prompt(`Enter a number ${i + 1}: `);
     const num = parseFloat(input);

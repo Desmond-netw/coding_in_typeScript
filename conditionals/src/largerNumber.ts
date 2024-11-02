@@ -7,18 +7,23 @@ const numbers: number[] = [];
 
 for (let i = 0; i < 3; i++) {
   const input = prompt(`Enter number ${i + 1}: `);
-  const number = parseFloat(input); 
+  const Inputnumber = parseFloat(input); 
 
   
-  if (!isNaN(number)) {
-    numbers.push(number); 
+  if (!isNaN(Inputnumber)) {
+    numbers.push(Inputnumber); 
   } else {
     console.log("Invalid input. Please enter a valid number.");
     i--; 
   };
 };
 
+let largestNumber = numbers[0];
 
-const largestNumber = Math.max(...numbers);
+for(let i = 1; i < numbers.length; i++) {
+    
+}
 
-console.log(`The largest number is ${largestNumber}`);
+// const largestNumber = Math.max(...numbers);
+
+// console.log(`The largest number is ${largestNumber}`);

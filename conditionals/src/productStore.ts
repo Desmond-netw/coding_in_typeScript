@@ -27,7 +27,7 @@ function createProduct():Product {
 const product: Product[] = [];
 
 for(let i = 0; i < quantity; i++){
-    console.log(`\nEnter details for product ${i + 1}:`);
+    console.log(`\n Enter details for product ${i + 1}:`);
     const productList = createProduct();
     product.push(productList);
 }

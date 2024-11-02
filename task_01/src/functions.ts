@@ -45,4 +45,5 @@ let car:cars = {
 
 console.log("Before", car);
 objectFun(car);
-console.log("After: ", car)
+console.log("After: ", car);
+
