@@ -11,4 +11,4 @@ let userInput = prompt("Enter words any word: ");
 let wordArr = userInput.split(",");
 wordArr = wordArr.map((word => word.trim().toLowerCase()));
 let duplicatWords = wordArr.filter((word, index) => wordArr.indexOf(word) !== index && wordArr.indexOf(word) === index);
-console.log("Duplicates: ", duplicatWords.join(','));
+console.log("Duplicates: ", duplicatWords.join(", "));
