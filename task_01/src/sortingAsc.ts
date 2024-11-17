@@ -1,4 +1,4 @@
-//Task 10: Student Grade Classifier
+
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 

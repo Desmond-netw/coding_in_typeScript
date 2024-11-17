@@ -12,8 +12,10 @@ const studentsArry: Student [] = [];
 //iterate the input for 4 people
 for (let i = 0; i < 4; i++) {
     const name = prompt(`Enter name of student ${i + 1}: `);
+
     const gradesInput = prompt(`Enter grades of ${name}, separated by commas: `);
     const grades = gradesInput.split(",").map(Number);
+    
     studentsArry.push({ name, grades });
 }
 //

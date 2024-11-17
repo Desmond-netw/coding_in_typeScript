@@ -8,6 +8,8 @@ import { findMinMax } from "./arrayUtils";
 import promptSync from "prompt-sync";
 
 const prompt = promptSync();
+
+
 const numbers = prompt("Enter numbers separated by commas: ").split(",").map(Number);
 const { min, max } = findMinMax(numbers);
 console.log("Minimum:", min, "Maximum:", max);

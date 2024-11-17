@@ -9,5 +9,5 @@ let wordArr = userInput.split(",");
 wordArr = wordArr.map((word => word.trim().toLowerCase()))
 
 let duplicatWords = wordArr.filter((word, index) => wordArr.indexOf(word) !== index && wordArr.indexOf(word) === index);
-
+duplicatWords = Array.from(new Set(duplicatWords))
 console.log("Duplicates: ", duplicatWords.join(", "));
