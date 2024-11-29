@@ -14,7 +14,7 @@ function isPrime(num) {
             return false;
         }
     }
-    return num > 1;
+    return num > 0;
 }
 ;
 console.log(array.filter(isPrime));
